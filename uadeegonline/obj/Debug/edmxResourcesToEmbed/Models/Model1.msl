@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="uadeegonlineModelStoreContainer" CdmEntityContainer="uadeegonlineEntities">
+    <EntitySetMapping Name="product_category">
+      <EntityTypeMapping TypeName="uadeegonlineModel.product_category">
+        <MappingFragment StoreEntitySet="product_category">
+          <ScalarProperty Name="cat_id" ColumnName="cat_id" />
+          <ScalarProperty Name="cat_name" ColumnName="cat_name" />
+          <ScalarProperty Name="cat_desc" ColumnName="cat_desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
